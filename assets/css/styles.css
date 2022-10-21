@@ -1,0 +1,289 @@
+@media screen and (orientation: portrait) {
+  div.navigation_imgs {
+    width: 115%;
+    margin-top: 20%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div.open_info_card {
+    padding: 20%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div#profolio_headline {
+    left: 40%;
+    margin-top: 0%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div#contact_headline {
+    left: 72%;
+    margin-top: 0%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div#about_headline {
+    left: 14%;
+    margin-top: 0%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div#info_div {
+    display: inline-flex;
+    transition: height 1.5s ease-in .5s;
+    top: 20%;
+    position: absolute;
+    float: none;
+    flex-direction: column;
+    max-height: max-content;
+    width: max-content;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div.info_div_closed {
+    height: 0%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div.info_div_open {
+    height: 75%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div.about_flr_open {
+    transform: translate(-94%,-122%) scale(.7);
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div.about_flr_open {
+    transform: translate(-94%,-122%) scale(.7);
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div.profolio_flr_open {
+    transform: translate(-8%,-163%) scale(.5);
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div.contact_flr_open {
+    transform: translate(21%,-248%) scale(.5);
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div.replace_txt {
+    font-size: large;
+    top: 13%;
+  }
+}
+
+.flr_img {
+  text-align: center;
+  transition: transform .7s ease-out .5s , opacity 0.5s ease 0s;
+}
+
+.hide_element {
+  pointer-events: none;
+  opacity: 0;
+}
+
+#about_flr {
+  width: 25%;
+  margin-left: 29%;
+}
+
+.open_card {
+  display: block;
+}
+
+.about_flr_open {
+  transform: translateX(-46%) scale(1.2);
+}
+
+.profolio_flr_open {
+  transform: translateX(-19%) translateY(14%) scale(.9);
+}
+
+.contact_flr_open {
+  transform: translateX(-18%) translateY(36%) scale(1.1);
+}
+
+@media (max-width:470px) {
+  div#stairs_ab_prf {
+    margin-top: -9%;
+  }
+}
+
+@media (max-width:360px) {
+  div#stairs_ab_prf {
+    margin-top: -10%;
+  }
+}
+
+#stairs_ab_prf {
+  text-align: center;
+  width: 10%;
+  left: 49%;
+  margin-top: -8%;
+  position: relative;
+}
+
+#profolio_flr {
+  display: block;
+  margin-top: -3%;
+  margin-bottom: -5%;
+}
+
+#stairs_prf_cntc {
+  width: 11%;
+  left: 26%;
+  position: relative;
+}
+
+#contact_flr {
+  margin-top: -15%;
+  margin-left: -3%;
+}
+
+#name_head {
+  font-family: Franklin-Gothic-Medium-Cond;
+  color: white;
+  font-size: 3.5vw;
+  width: 100%;
+  text-align: right;
+}
+
+#cred_foot {
+  text-align: left;
+}
+
+.open_card {
+  margin-right: 6%;
+  background-color: var(--bs-body-bg);
+  margin-top: 10%;
+  width: 30%;
+  float: right;
+}
+
+#stairs_ab_prf {
+  transition: opacity 0.1s ease 0s;
+}
+
+#info_div {
+  transition: width 2s ease 0s;
+  margin-right: 5%;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  text-align: left;
+  float: right;
+}
+
+.info_div_open {
+  width: 60%;
+}
+
+.info_div_closed {
+  width: 0%;
+}
+
+.back_button {
+  transition: none;
+  display: block;
+}
+
+.navigation_imgs {
+  width: 44%;
+  display: inline-block;
+  margin-top: 3%;
+  transition: width 2s;
+  height: 60%;
+}
+
+.navigation_imgs_open {
+  width: 35%;
+}
+
+.closed_info_card {
+  display: none;
+}
+
+.open_info_card {
+  font-size: 1.2vw;
+}
+
+.replace_txt {
+  left: 7%;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.replace_text_closed {
+  opacity: 1;
+  pointer-events: auto;
+  font-size: 2.1vw;
+  font-family: fantasy;
+  color: var(--bs-purple);
+}
+
+.info_txt {
+  margin-top: 6%;
+  text-align: left;
+  height: 70%;
+}
+
+.contact_form_input {
+  width: 80%;
+}
+
+#contact_info {
+  text-align: left;
+}
+
+#cnct_me {
+  margin-left: 33%;
+  font-size: 3vw;
+}
+
+#profolio_headline {
+  margin-top: 4%;
+}
+
+#contact_headline {
+  margin-top: 6%;
+}
+
+#coin_img {
+  width: 10%;
+}
+
+body {
+  background-image: url(../../assets/img/Background.svg);
+  background-repeat: repeat-y;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+}
+
+.prdolio_list {
+  display: inline-flex;
+  text-align-last: justify;
+}
+
+.profolio_elelmnet {
+  display: inline-block;
+  padding: 20%;
+}
+
